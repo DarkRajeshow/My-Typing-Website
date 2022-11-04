@@ -1,0 +1,84 @@
+body {
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    color: black;
+    background-color: #c2fedb;
+    font-family: 'Cutive Mono', monospace;
+    
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top: 16px;
+    margin-bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sentance {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    overflow: hidden;
+    border-radius: 20px;
+    gap: 0px;
+    padding: 30px;
+    background-color: #fffdca;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+
+}
+
+span {
+    font-size: 1.8rem;
+    border-radius: 5px;
+    border-bottom: 3px solid transparent;
+    padding: 0%;
+    margin-bottom: 10px;
+    width:18px;
+    font-weight: bold;
+}
+
+.timer {
+    font-weight: bold;
+    color: green;
+}
+
+#score{
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.wrongHover {
+    animation: shake 0.2s ease-in-out 0s 2;
+}
+.score{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+.score>p{
+    padding: 0 70px;
+}
+@keyframes shake {
+    0% {
+        margin-left: 0rem;
+    }
+
+    25% {
+        margin-left: 0.1rem;
+    }
+
+    75% {
+        margin-left: -0.1rem;
+    }
+
+    100% {
+        margin-left: 0rem;
+    }
+}
