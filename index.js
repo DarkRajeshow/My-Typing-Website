@@ -1,5 +1,5 @@
 //adding paragraph....
-let sentance = "This is my typing website, I made it with the help of HTML, CSS and Javascript, It took me around two days to make this website, Now I really glad that, I completed this website ,I frequently upSkill myself and I learn new things everyday.. you can check out my GitHub Profile in which I Made tons of awesome website projects. It is all about my Journey in web devlopment...., thank you!";
+let sentance = "This is My Typing website, I made It with the help of HTML, CSS and Javascript, It took me around two days to make this website, Now I really glad That I completed this website ,I frequently upSkill Myself and I learn new things everyday.. You can check out my GitHub Profile in which I Made Tons of awesome website Projects. It is all about My Journey in web devlopment...., Thank You!";
 sentance = sentance.split("");
 
 for (let j = 0; j < sentance.length; j++) {
